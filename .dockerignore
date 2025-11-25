@@ -1,0 +1,53 @@
+# Fichiers et dossiers à exclure de l'image Docker
+
+# Dépendances
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Fichiers d'environnement (doivent être passés via variables d'environnement Docker)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+
+# Fichiers de développement
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Tests
+test
+tests
+*.test.js
+*.spec.js
+coverage
+
+# Fichiers temporaires
+*.log
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.*.yml
+
+# Autres
+.nyc_output
+dist
+build
+
